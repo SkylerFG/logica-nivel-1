@@ -3,9 +3,9 @@
 n1=int(input("Diga o primeiro número: "))
 n2=int(input("Diga o segundo número: "))
 n3=int(input("Diga o terceiro número: "))
-if n1 > n2 >= n3:
+if n1 > n2 and n1 > n3:
     nm=n1
-elif n2 >= n1 >= n3:
+elif n2 > n1 and n2 > n3:
     nm = n2
 else:
     nm = n3
