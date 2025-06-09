@@ -3,7 +3,7 @@
 #Nota entre 5 e 6.9: Recuperação
 #Nota < 5: Reprovado
 
-nota=float(input("Diga sua idade: "))
+nota=float(input("Diga sua nota: "))
 if nota >= 7:
     print ("Você está aprovado")
 elif nota <= 6.9 and nota > 5:
